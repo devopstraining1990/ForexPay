@@ -102,7 +102,7 @@
 	    <configuration>
 	         <baselineOnMigrate>true</baselineOnMigrate>
 	         <url>jdbc:mysql://3.236.111.114:3306</url>
-	         <user>flywayuser2</user>
+	         <user>inguser2</user>
 		  <password>H@ckath0n</password>
 	      <schemas>
 	          <schema>forexpay</schema>
