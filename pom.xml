@@ -76,7 +76,7 @@
   </snapshotRepository>
 </distributionManagement>
 		
-	>
+	
 
 	<build>
 		<plugins>
