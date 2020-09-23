@@ -25,6 +25,7 @@
 		</sonar.coverage.exclusions>
 	</properties>
 
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
