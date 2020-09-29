@@ -1,6 +1,6 @@
 
 FROM java:8
-COPY /opt/work/2878bb1cdc330d70/target/ForexPay*.jar /usr/app/
-WORKDIR /usr/app/
+WORKDIR /tmp/demo/
+ADD ForexPay-0.0.17-SNAPSHOT.jar ForexPay-0.0.17-SNAPSHOT.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "/usr/app/ForexPay*.jar"]
+ENTRYPOINT ["java", "-jar", "ForexPay-0.0.17-SNAPSHOT.jar"]
