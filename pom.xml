@@ -70,11 +70,12 @@
 	</dependencies>
 	
 	
-	      <distributionManagement>
-  <snapshotRepository>
-    <id>nexus</id>
-    <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-  </snapshotRepository>
+	   <distributionManagement>
+    <snapshotRepository>
+        <id>artifactory</id>
+        <name>ip-172-31-21-207.ec2.internal-snapshots</name>
+        <url>http://54.226.98.1:8082/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
 </distributionManagement>
 		
 	
