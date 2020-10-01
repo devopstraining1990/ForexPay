@@ -73,8 +73,7 @@
 	   <distributionManagement>
     <snapshotRepository>
         <id>artifactory</id>
-       
-        <url>http://54.226.98.1:8082/artifactory/libs-snapshot-local</url>
+	     <url>http://34.228.254.159:8082/artifactory/msk-snpahot</url>
     </snapshotRepository>
 </distributionManagement>
 		
