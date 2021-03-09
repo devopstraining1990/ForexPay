@@ -30,3 +30,10 @@ steps:
     sonarQubeRunAnalysis: true
     isJacocoCoverageReportXML: true
     sqMavenPluginVersionChoice: 'latest'
+
+- task: Docker@2
+  inputs:
+    containerRegistry: 'DockerServiceConnection'
+    repository: 'testsuresh'
+    command: 'buildAndPush'
+    Dockerfile: '**/Dockerfile'
