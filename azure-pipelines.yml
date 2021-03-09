@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: ubuntu-latest
+pool: SUREH_DEOM-AGN
 
 steps:
 - script: echo Hello, world!
