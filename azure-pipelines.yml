@@ -36,4 +36,4 @@ steps:
     containerRegistry: 'DockerServiceConnection'
     repository: 'testsuresh'
     command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
+    Dockerfile: '$(System.DefaultWorkingDirectory)/Dockerfile'
